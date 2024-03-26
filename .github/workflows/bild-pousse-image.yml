@@ -6,6 +6,7 @@ on: [push]
   
   
 jobs:
+  nom-du-job:
     runs-on: ubuntu-latest
 
     steps:
