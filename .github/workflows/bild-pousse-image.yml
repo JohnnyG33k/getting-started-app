@@ -1,1 +1,4 @@
 # John was here !
+
+name: Bild et pousse la photo
+on: [push]
