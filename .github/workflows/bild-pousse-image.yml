@@ -3,4 +3,4 @@
 name: Bild et pousse la photo
 on: [push]
 jobs: 
-  runs-on: node:18-alpine-latest
+  runs-on: debian-latest
