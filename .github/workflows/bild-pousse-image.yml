@@ -2,3 +2,5 @@
 
 name: Bild et pousse la photo
 on: [push]
+jobs: 
+  runs on: alpine18
