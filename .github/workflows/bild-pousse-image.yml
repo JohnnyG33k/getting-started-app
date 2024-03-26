@@ -3,4 +3,4 @@
 name: Bild et pousse la photo
 on: [push]
 jobs: 
-  runs on: debian-latest
+  runs-on: alpine18-latest
