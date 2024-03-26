@@ -3,4 +3,4 @@
 name: Bild et pousse la photo
 on: [push]
 jobs: 
-  runs on: 18-alpine
+  runs on: ubuntu-latest
