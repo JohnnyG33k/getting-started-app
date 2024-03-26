@@ -1,6 +1,15 @@
 # John was here !
 
 name: Bild et pousse la photo
+
 on: [push]
-jobs: 
-  runs-on: debian-latest
+  
+  
+jobs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+     
+
