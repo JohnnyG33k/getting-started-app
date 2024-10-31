@@ -1,9 +1,9 @@
 name: todo-workflow
-
-on: [push]
+on: push
 jobs:
   workflow:
     runs-on: node:20-alpine
-    steps:
-    -uses:
+    steps: 
+      - name: Check out repository code
+        uses: actions/checkout@v3
 
