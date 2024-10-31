@@ -1,4 +1,4 @@
-honame: todo-workflow
+name: todo-workflow
 on: push
 jobs:
   workflow:
